@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Nextflow Vat 7 Calculator 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <ion-item>
+    <ion-label>จำนวนเงิน</ion-label>
+    <ion-input type="number" [(ngModel)]="money" ></ion-input>
+  </ion-item>
+
+  <ion-button expand="block" (click)="calculate(money)">คำนวณ</ion-button>
+  
+  <p class="vat-title">ราคารวม ภาษี 7%</p>
+  <p class="vat-amount">{{ vatResult }}</p>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "Vat7Ionic5",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
